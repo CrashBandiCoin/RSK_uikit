@@ -13,7 +13,7 @@ import ModalBlockChain from "./components/ModalBlockChain";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
-import { BSCIcon } from "./icons";
+import { BSCIcon, RSKIcon } from "./icons";
 
 const Wrapper = styled.div`
   position: relative;
@@ -140,8 +140,8 @@ const Menu: React.FC<NavProps> = ({
         {!!login && !!logout && (
           <Flex>
             <BtnBlockChain onClick={onPresentMyModal} scale="sm">
-              <BSCIcon width="24px" />
-                BSC
+              <RSKIcon width="24px" />
+                RSK
             </BtnBlockChain>
             <UserBlock account={account} login={login} logout={logout} />
             {profile && <Avatar profile={profile} />}
