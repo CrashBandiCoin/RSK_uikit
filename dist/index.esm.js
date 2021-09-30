@@ -4401,7 +4401,7 @@ var Menu = function (_a) {
             React.createElement(Logo, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
             !!login && !!logout && (React.createElement(Flex, null,
                 React.createElement(BtnBlockChain, { onClick: onPresentMyModal, scale: "sm" },
-                    React.createElement(Icon$7, { width: "22px" }),
+                    React.createElement(Icon$7, { width: "24px", style: { marginRight: '5px' } }),
                     "RSK"),
                 React.createElement(UserBlock$1, { account: account, login: login, logout: logout }),
                 profile && React.createElement(Avatar, { profile: profile })))),

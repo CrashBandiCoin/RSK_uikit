@@ -140,7 +140,7 @@ const Menu: React.FC<NavProps> = ({
         {!!login && !!logout && (
           <Flex>
             <BtnBlockChain onClick={onPresentMyModal} scale="sm">
-              <RSKIcon width="22px" />
+              <RSKIcon width="24px" style={{marginRight: '5px'}}/>
                 RSK
             </BtnBlockChain>
             <UserBlock account={account} login={login} logout={logout} />
