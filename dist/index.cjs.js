@@ -3626,8 +3626,8 @@ var Icon$8 = function (props) {
 };
 
 var Icon$7 = function (props) {
-    return (React__default["default"].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", height: "90", width: "90", fill: "none", viewBox: "0 0 90 90" }, props),
-        React__default["default"].createElement("image", { width: 90, height: 90, href: "/images/home/rsk-icon.png" })));
+    return (React__default["default"].createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", height: "80", width: "80", fill: "none", viewBox: "0 0 80 80" }, props),
+        React__default["default"].createElement("image", { width: 80, height: 80, href: "/images/home/rsk-icon.png" })));
 };
 
 var IconModule = /*#__PURE__*/Object.freeze({
@@ -4415,7 +4415,7 @@ var Menu = function (_a) {
             React__default["default"].createElement(Logo, { isPushed: isPushed, togglePush: function () { return setIsPushed(function (prevState) { return !prevState; }); }, isDark: isDark, href: (_b = homeLink === null || homeLink === void 0 ? void 0 : homeLink.href) !== null && _b !== void 0 ? _b : "/" }),
             !!login && !!logout && (React__default["default"].createElement(Flex, null,
                 React__default["default"].createElement(BtnBlockChain, { onClick: onPresentMyModal, scale: "sm" },
-                    React__default["default"].createElement(Icon$7, { width: "24px" }),
+                    React__default["default"].createElement(Icon$7, { width: "22px" }),
                     "RSK"),
                 React__default["default"].createElement(UserBlock$1, { account: account, login: login, logout: logout }),
                 profile && React__default["default"].createElement(Avatar, { profile: profile })))),
