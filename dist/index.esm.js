@@ -3612,8 +3612,8 @@ var Icon$8 = function (props) {
 };
 
 var Icon$7 = function (props) {
-    return (React.createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", height: "100", width: "100", fill: "none", viewBox: "0 0 100 100" }, props),
-        React.createElement("image", { width: 100, height: 100, href: "/images/home/rsk-icon.png" })));
+    return (React.createElement(Svg, __assign({ xmlns: "http://www.w3.org/2000/svg", height: "90", width: "90", fill: "none", viewBox: "0 0 90 90" }, props),
+        React.createElement("image", { width: 90, height: 90, href: "/images/home/rsk-icon.png" })));
 };
 
 var IconModule = /*#__PURE__*/Object.freeze({
